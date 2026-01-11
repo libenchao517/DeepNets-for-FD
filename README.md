@@ -1,7 +1,7 @@
-## DeepNets-for-FD
+# DeepNets-for-FD
 DeepNets-for-FD软件包中有一些故障诊断任务中常用的CNN网络。下面是这些方法的使用案例和参考文献。
 
-### 使用案例
+## 使用案例
 - CNN-2560-768 [1]
 ```python
 from sklearn.datasets import fetch_openml
@@ -126,7 +126,7 @@ model = MIX_CNN(sample_height=1, sample_weight=784, num_classes=10, epoch=5, dev
 y_pred = model.fit_transform(x_train, x_test, t_train, t_test)
 ```
 
-### 参考文献
+## 参考文献
 ```
 [1] Wen L, Li X, Gao L, et al. A new convolutional neural network-based data-driven fault diagnosis method[J]. IEEE transactions on industrial electronics, 2017, 65(7): 5990-5998.
 [2] Xu Y, Li Z, Wang S, et al. A hybrid deep-learning model for fault diagnosis of rolling bearings[J]. Measurement, 2021, 169: 108502. 
